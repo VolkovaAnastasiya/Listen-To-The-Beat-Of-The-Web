@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://VolkovaAnastasiya.github.io/Listen-To-The-Beat-Of-The-Web",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Listen-To-The-Beat-Of-The-Web/"
   },
   "repository": {
     "type": "git",
