@@ -1,7 +1,8 @@
-<div class="header-container section">
-    <header class="header">
+<section class="header-container">
+    <div class="container">
+<header class="header">
     <nav class="nav-header">
-        <svg width='130' height='40'>
+        <svg class="logo" width='130' height='40'>
             <use href= '/images/svg/sprite_svg.svg#icon-logo-var'></use>
         </svg>
         <ul class="nav-header_list">
@@ -12,17 +13,19 @@
             <li class="nav-header_item">Blog</li>
             <li class="nav-header_item">Log In</li>
         </ul>
-        <button class="btn-header">Sign Up
-              <svg width='12' height='20'>
+        <button class="btn-header header__button header__button--close hero-button" type="button" data-modal-open>Sign Up  
+              <svg width='24' height='24'>
             <use href= '/images/svg/sprite_svg.svg#icon-flash'></use>
         </svg>
         </button>
     </nav>
 </header>
-<h1>Listen To The Beat Of The Web</h1>
-<p>First template from series templates to design web pages, using components system</p>
-<a href="">
-    <div>
+<div class="hero_container">
+    <div class="hero_box">
+    <h1 class="hero_title">Listen To The <br> Beat Of The Web</h1>
+<p class="hero_desc">First template from series templates to design web <br> pages, using components system</p>
+<a href="" class="hero_link">
+    <div class="hero_link">
          Let’s Go
         <svg width='36' height='36'>
             <use href= '/images/svg/sprite_svg.svg#icon-get_file'></use>
@@ -30,9 +33,41 @@
     </div>
     
 </a>
-<div class="nav-header_img">
-     <img src="/images/subtract.png" alt="play" width="134" height="134">
 </div>
 
+<div class="circle">
+    <div class="hero_img">
+     <img src="/images/subtract.png" alt="play" width="134" height="134">
 </div>
+</div>
+</div>
+<h2>How it works</h2>
+<ul class="hero_list">
+    <li class="hero_item">
+         <svg width='76' height='88'>
+            <use href= '/images/svg/sprite_svg.svg#icon-11'></use>
+        </svg> 
+        <h3 class="hero_subtitle">Read it</h3>
+        <p class="hero_text">Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    </li>
+    <li class="hero_item">
+         <svg width='76' height='88'>
+            <use href= '/images/svg/sprite_svg.svg#icon-21'></use>
+        </svg> 
+        <h3 class="hero_subtitle">Apply</h3>
+        <p class="hero_text">Orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  magna dolore.</p>
+    </li>
+    <li class="hero_item">
+         <svg width='76' height='88'>
+            <use href= '/images/svg/sprite_svg.svg#icon-31'></use>
+        </svg> 
+        <h3 class="hero_subtitle">Multiply</h3>
+        <p class="hero_text">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  orem.</p>
+    </li>
+</ul>
+        
+
+    </div>
+
+</section>
 <!-- /src/images/svg/sprite_svg.svg#icon-logo-var -->
