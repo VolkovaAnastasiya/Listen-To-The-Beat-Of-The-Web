@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -7,13 +8,48 @@ p {
   color: getColor('secondText');
 }
 
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+.header-container {
+  background-image: url(../images/bg-top.png);
+  width: 1920px;
+  height: 1514px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-header_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-header_item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+p {
   margin: 0;
+
   padding: 0;
   color: getColor('primaryText');
 }
@@ -25,17 +61,20 @@ img {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
 }
 
-button {
-  cursor: pointer;
+a {
+  text-decoration: none;
 }
 
 section {
   padding: 120px 240px;
   width: 1920px;
 }
+.nav-header_img {
+  width: 134px;
+  height: 134px;
+} /*# sourceMappingURL=main.css.map */
