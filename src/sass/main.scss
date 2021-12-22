@@ -4,6 +4,8 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
+@import './variables';
+@import './base';
 @import './example';
 @import './download-the-future';
 @import './footer';
@@ -13,4 +15,3 @@
 @import './speed-up-your-design-process';
 @import './unsplash-graphic';
 @import "./Why-you'll-love-it";
-@import './variables';

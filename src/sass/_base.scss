@@ -1,0 +1,91 @@
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+// Глобальные стили тегов
+
+// Обнулить всё
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin: 0px;
+  &.modal-open {
+    overflow: hidden;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+// Глобальные селекторы
+section {
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 240px;
+}
+p {
+  margin: 0;
+  color: getColor('secondText');
+}
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+
+  max-width: 1504px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1504px;
+  }
+}
+
+// Невидимый Заголовок
+
+.invisible-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

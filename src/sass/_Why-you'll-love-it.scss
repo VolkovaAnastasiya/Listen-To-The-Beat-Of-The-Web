@@ -1,0 +1,15 @@
+.about_container,
+.about_box {
+  display: flex;
+  align-items: center;
+}
+
+.about_img {
+  width: 67px;
+  height: 67px;
+  margin-right: 26px;
+}
+
+.about_menu:not(:last-child) {
+  margin-right: 32px;
+}

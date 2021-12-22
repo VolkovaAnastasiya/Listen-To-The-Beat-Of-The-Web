@@ -1,33 +1,31 @@
 $colors: (
-  "accentBtn": #FFD703,
+  'accentBtn': #ffd703,
   //кнопка и ссылки и акцент-подчеркивание в секции Unsplash graphic
-  "texBtn": #2C2C2C,
+  'texBtn': #2c2c2c,
   //текст в кнопках и ссылках
-  "textInput": #CCCCCC,
+  'textInput': #cccccc,
   //текст в инпуте
-  "headerText": #F4F4F4,
+  'headerText': #f4f4f4,
   //светлый текст в header и footer
-  "secondTextHedear": #CEFFFD,
+  'secondTextHedear': #cefffd,
   //Подзаголовок в хедере и в футере стр Join our weekly maiiling list
-  "whiteText": #ffffff,
+  'whiteText': #ffffff,
   //белый текст в навигации hedear и секции download
-  "primaryText": #373737,
+  'primaryText': #373737,
   //основной цвет текста
-  "secondText": #707070,
+  'secondText': #707070,
   //второстепенный цвет текста
-
-  "accentColor": #3FC2BB,
+  'accentColor': #3fc2bb,
   //цвее иконок соцсетей и акцентцвет в секциях Why you'll love it и Project's team
-  "footerText": #38B7AF,
+  'footerText': #38b7af,
   //текст в футере
-  "backgroundFooter": #0B514D,
+  'backgroundFooter': #0b514d,
   //Фон в футере
-  "background": #E5E5E5,
+  'background': #e5e5e5,
   //Фон основных секций
-
 );
 @function getColor($key) {
   @return map-get($colors, $key);
 }
 // Как записать цвет - пример
-// color: getColor('secondaryText');
+// color: getColor('secondText');
