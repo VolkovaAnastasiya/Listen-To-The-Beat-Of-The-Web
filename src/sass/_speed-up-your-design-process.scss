@@ -1,3 +1,5 @@
+
+
 .speed-up_title{
 font-weight: normal;
 font-size: 60px;
@@ -26,8 +28,16 @@ margin-bottom: 96px;
 .speed-up_item{
     display: flex;
     align-items: center;
+  transform: scale(1);
+  transition-duration: 300ms;
     
 } 
+
+.speed-up_item:hover,
+.speed-up_item:focus{
+transform: scale(1.1);
+transition-duration: 300ms;
+}
 .speed-up_svg{
     margin-right: 44px;
 }
