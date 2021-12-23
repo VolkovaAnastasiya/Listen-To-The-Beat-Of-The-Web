@@ -1,0 +1,253 @@
+.footer_section {
+  height: 315px;
+  background-color: getColor('backgroundFooter');
+  padding-top: 40px;
+}
+
+.footer_box {
+  display: flex;
+}
+
+.footer_item {
+  height: 27px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 27px / 2 - 56px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: getColor('headerText');
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 0 16px 0px;
+}
+
+.footer_list_item {
+  height: 18px;
+  top: calc(50% - 18px / 2 + 39px);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: getColor('footerText');
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.footer_list {
+}
+
+.footer_line {
+  width: 1504px;
+  height: 1px;
+  left: 0px;
+  top: 184px;
+
+  background: #e5edf5;
+  opacity: 0.2;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px auto;
+}
+
+.footer_containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 960px;
+  height: 139px;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 50px 0 0;
+}
+
+.footer_adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 1504px;
+  height: 18px;
+  left: 0px;
+  top: 217px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.footer_adress_list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 319px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+
+  opacity: 0.5;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.item_footer {
+  position: static;
+  height: 18px;
+  left: 257px;
+  top: calc(50% - 18px / 2);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: getColor('footerText');
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 32px 0 0;
+}
+.desc_footer {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+
+  letter-spacing: 0.1px;
+
+  color: getColor('footerText');
+}
+
+.item_footer:hover,
+.desc_footer:hover,
+.item_footer:focus,
+.desc_footer:focus {
+  color: getColor('accentColor');
+}
+
+.btn-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffd703;
+  border: 2px solid #ffd703;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 166px;
+  height: 48px;
+  background: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  transition-duration: 300ms;
+  margin-top: 15px;
+}
+
+.footer_input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 34px;
+  position: static;
+  width: 312px;
+  height: 50px;
+  left: 0px;
+  top: 33px;
+  font-size: 18px;
+  line-height: 1.5;
+
+  background: getColor('whiteText');
+  outline: none;
+
+  border: 1px solid #cafffd;
+  box-sizing: border-box;
+  border-radius: 2000px;
+  color: getColor('primaryText');
+
+  flex: none;
+  flex-grow: 0;
+  margin: 15px 16px 0 0;
+}
+
+.footer_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_nav_item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: getColor('headerText');
+}
+
+.footer_nav_desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.1px;
+
+  color: getColor('secondTextHedear');
+  margin: 2px 0 16px 0;
+}
+
+.footer_input_name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: getColor('whiteText');
+}
