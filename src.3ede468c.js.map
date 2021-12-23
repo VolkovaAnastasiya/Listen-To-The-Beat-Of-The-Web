@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["$","document","ready","slick"],"mappings":";;;AACA,aADA,QAAA,oBACAA,EAAEC,UAAUC,MAAM,WAChBF,EAAE,eAAeG,MAAM","file":"src.3ede468c.js","sourceRoot":"../src","sourcesContent":["import './sass/main.scss';\n$(document).ready(function () {\n  $('.your-class').slick({});\n});\n"]}
