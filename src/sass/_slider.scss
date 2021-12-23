@@ -1,0 +1,131 @@
+.product_box {
+  height: 939px;
+  // background-image: url(../images/slider/fill.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 32px;
+}
+
+.product_slider_card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 64px;
+
+  position: absolute;
+  width: 824px;
+  height: 318px;
+  left: 32px;
+  bottom: 104px;
+
+  background: rgba(255, 255, 255, 0.8);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(24px);
+  border-radius: 16px;
+}
+
+.product_title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+
+  color: getColor('primaryText');
+}
+
+.product_text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+
+  color: getColor('secondText');
+}
+
+.product_slider {
+}
+
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 10;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url('../images/slider/Mask1.svg');
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url('../images/slider/Mask.svg');
+}
+.slider_item {
+}
