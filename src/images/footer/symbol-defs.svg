@@ -1,0 +1,8 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-heart" viewBox="0 0 36 32">
+<path fill="#3fc2bb" style="fill: var(--color1, #3fc2bb)" d="M19.009 3.738v2.735h-4.558v-2.735h-2.735v-3.647h-3.647v3.647h-3.647v2.735h-3.647v7.293h3.647v3.647h3.647v3.647h3.647v3.647h10.029v-3.647h3.647v-3.647h3.647v-3.647h3.647v-7.293h-3.647v-2.735h-3.647v-3.647h-3.647v3.647h-2.735z"></path>
+<path fill="#3fc2bb" style="fill: var(--color1, #3fc2bb)" d="M15.362 27.898h3.496v3.495h-3.496v-3.495z"></path>
+</symbol>
+</defs>
+</svg>
