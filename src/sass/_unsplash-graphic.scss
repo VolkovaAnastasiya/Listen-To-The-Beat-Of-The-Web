@@ -3,6 +3,7 @@ padding-top: 100px;
  background-image: url(../images/unsplash-graphic/1.png);
  background-repeat: no-repeat;
  background-position-x: right;
+ 
 }
 
 .graphic_title{
@@ -35,7 +36,44 @@ margin-bottom: 53px;
 // }
 
 .graphic_item{
-    border-radius: 20px;
-    overflow: hidden;
+    position: relative;
+    // border-radius: 20px;
+    // overflow: hidden;
     margin: 20px;
+    margin-bottom: 40px;
 }
+
+.graphic_item img{
+       border-radius: 20px;
+    overflow: hidden;
+        transform: scale(1);
+  transition-duration: 300ms;
+}
+
+.graphic_item-box::after{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 60%;
+    // top: ;
+    bottom: -10%;
+    display: block;
+    width: 50px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: getColor('accentBtn');
+    
+//   transition-duration: 300ms;
+}
+ .graphic_item:hover,
+ .graphic_item:focus{
+       transform: scale(1.1);
+  transition-duration: 300ms;
+
+ }
+
+ .graphic_item::after:focus,
+ .graphic_item::after:hover{
+ opacity: 1;
+//   transition-duration: 300ms;
+ }

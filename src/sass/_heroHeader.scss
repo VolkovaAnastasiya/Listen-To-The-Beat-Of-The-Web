@@ -32,6 +32,8 @@ margin-top: 76px;
 .logo{
 margin-left: 10px;
 margin-right: 495px;
+    transform: scale(1);
+  transition-duration: 300ms;
 }
 
 .btn-header{
@@ -50,6 +52,8 @@ background: inherit;
 display: flex;
 align-items: center;
 justify-content: center;
+  transform: scale(1);
+  transition-duration: 300ms;
 }
 
 .btn-header svg{
@@ -150,15 +154,15 @@ border: 2px solid #FFFFFF;
 }
 
 .hero_link{
-      @media (min-width: 768px) {
      display: flex;
   align-items: center;
   justify-content: center;
-  }
   width: 299px;
   height: 79px;
   background: getColor('accentBtn');
 border-radius: 2000px;
+  transform: scale(1);
+  transition-duration: 300ms;
 // display: flex;
 // align-items: center;
 // justify-content: center;
@@ -167,6 +171,8 @@ font-size: 22px;
 line-height: 33px;
 text-align: center
 }
+
+
 
 .hero_link svg{
   margin-left: 10px;
@@ -215,6 +221,20 @@ background: rgba(255, 255, 255, 0.5);
 width: 480px;
 height: 308px;
 padding: 32px;
+      transform: scale(1);
+  transition-duration: 300ms;
+}
+
+.hero_item:hover,
+.hero_item:focus,
+.hero_link:focus,
+.btn-header:hover,
+.btn-header:focus,
+.hero_link:hover,
+.logo:hover,
+.logo:focus{
+  transform: scale(1.1);
+  transition-duration: 300ms;
 }
 
 .hero_item:not(:last-child){
