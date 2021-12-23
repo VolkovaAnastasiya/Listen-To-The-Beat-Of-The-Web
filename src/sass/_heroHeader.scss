@@ -153,7 +153,7 @@ border: 2px solid #FFFFFF;
   
 }
 
-.hero_link{
+.hero_link {
      display: flex;
   align-items: center;
   justify-content: center;
@@ -163,6 +163,7 @@ border: 2px solid #FFFFFF;
 border-radius: 2000px;
   transform: scale(1);
   transition-duration: 300ms;
+  color: getColor('primaryText');
 // display: flex;
 // align-items: center;
 // justify-content: center;

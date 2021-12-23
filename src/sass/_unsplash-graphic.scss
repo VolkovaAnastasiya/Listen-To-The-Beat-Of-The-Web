@@ -65,12 +65,7 @@ margin-bottom: 53px;
     
 //   transition-duration: 300ms;
 }
- .graphic_item:hover,
- .graphic_item:focus{
-       transform: scale(1.1);
-  transition-duration: 300ms;
-
- }
+ 
 
  .graphic_item::after:focus,
  .graphic_item::after:hover{
