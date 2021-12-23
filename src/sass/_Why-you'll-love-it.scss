@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.about_box {
+  margin-bottom: 24px;
+}
+
 .about_img {
   width: 67px;
   height: 67px;
@@ -12,4 +16,49 @@
 
 .about_menu:not(:last-child) {
   margin-right: 32px;
+}
+
+.about_section {
+  padding-top: 240px;
+}
+
+.about_title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+
+  color: #373737;
+}
+
+.about_first_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #373737;
+}
+
+.about_second_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #3fc2bb;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.about_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
 }
