@@ -61,8 +61,15 @@ color: getColor('secondText');
 
 .team_item{
  position: relative;
+//   transform: scale(1);
+//   transition-duration: 300ms;
 }
 
+// .team_item:hover,
+// .team_item:focus{
+//      transform: scale(1.1);
+//   transition-duration: 300ms;
+// }
 .team_item img{
 overflow: hidden;
 border-radius: 53px;
@@ -101,4 +108,15 @@ color: getColor('accentColor');
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.social_item{
+     transform: scale(1);
+  transition-duration: 300ms;
+}
+
+.social_item:hover,
+.social_item:focus{
+     transform: scale(1.2);
+  transition-duration: 300ms;
 }
