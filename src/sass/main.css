@@ -1123,6 +1123,7 @@ p {
 }
 
 .graphic_item-box::after {
+  opacity: 0;
   z-index: 1;
   content: "";
   position: absolute;
@@ -1135,8 +1136,7 @@ p {
   background-color: #ffd703;
 }
 
-.graphic_item-box:focus,
-.graphic_item-box:hover {
+.graphic_item:hover .graphic_item-box::after {
   opacity: 1;
 }
 
