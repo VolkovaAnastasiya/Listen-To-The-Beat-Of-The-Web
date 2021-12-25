@@ -11,7 +11,9 @@
             <li class="nav-header_item">Pricing</li>
             <li class="nav-header_item">Help</li>
             <li class="nav-header_item">Blog</li>
-            <li class="nav-header_item">Log In</li>
+            <li class="nav-header_item">
+             <button type="button" data-modal-open-log>Log In</button>   
+            </li>
         </ul>
         <button class="btn-header" type="button" data-modal-open>Sign Up  
               <svg width='24' height='24'>
@@ -70,6 +72,8 @@
     </div>
 
 </section>
+ <!-- модалка Sing up -->
+
  <div class="backdrop is-hidden" data-modal>
         <div class="modal">
            <form class="form-field is-hidden">
@@ -96,3 +100,27 @@
         </div>
     </div>
 
+ <!-- модалка log in -->
+
+ <div class="backdrop is-hidden" data-modal-log>
+        <div class="modal">
+           <form class="form-field is-hidden">
+               <h2 class="form-field__title">Log in</h2>
+                         
+                <label class="form-field__label">Login
+                    <input type="email" name="email"   class="form-field__input" placeholder="email"/>
+                 
+                </label>
+                
+                <label  class="form-field__label" class="text-form">Password
+                    <input type="password" name="password"  class="form-field__input" placeholder="password"/>
+                 
+                </label>
+
+                
+               
+               <button type="submit" class="btn-header btn-form">Add</button>
+           </form>
+            <button type="button"  class="modal__btn" data-modal-close-log>x</button>
+        </div>
+    </div>
