@@ -13,7 +13,7 @@
             <li class="nav-header_item">Blog</li>
             <li class="nav-header_item">Log In</li>
         </ul>
-        <button class="btn-header header__button header__button--close hero-button" type="button" data-modal-open>Sign Up  
+        <button class="btn-header" type="button" data-modal-open>Sign Up  
               <svg width='24' height='24'>
             <use href= '/images/svg/sprite_svg.svg#icon-flash'></use>
         </svg>
@@ -24,7 +24,7 @@
     <div class="hero_box">
     <h1 class="hero_title">Listen To The <br> Beat Of The Web</h1>
 <p class="hero_desc">First template from series templates to design web <br> pages, using components system</p>
-<a href="" class="hero_link">
+<a href="https://www.jango.com/" class="hero_link">
     <div class="hero_link">
          Let’s Go
         <svg width='36' height='36'>
@@ -70,4 +70,29 @@
     </div>
 
 </section>
-<!-- /src/images/svg/sprite_svg.svg#icon-logo-var -->
+ <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+           <form class="form-field is-hidden">
+               <h2 class="form-field__title">Sing up</h2>
+                
+                <label class="form-field__label">Name
+                     <input type="text" name="name" class="form-field__input" placeholder="name"/>
+                    
+                </label>
+                   
+                <label class="form-field__label">Login
+                    <input type="email" name="email"   class="form-field__input" placeholder="email"/>
+                 
+                </label>
+                
+                <label  class="form-field__label" class="text-form">Password
+                    <input type="password" name="password"  class="form-field__input" placeholder="password"/>
+                 
+                </label>
+               
+               <button type="submit" class="btn-header btn-form">Add</button>
+           </form>
+            <button type="button"  class="modal__btn" data-modal-close>x</button>
+        </div>
+    </div>
+
