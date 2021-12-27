@@ -62,6 +62,12 @@
   text-transform: uppercase;
 }
 
+.dowload_btn:hover,
+.dowload_btn:focus {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
+
 .dowload_input {
   display: flex;
   flex-direction: row;
@@ -99,6 +105,17 @@
   margin-top: 32px;
 }
 
+.dowload_item {
+  transform: scale(1);
+  transition-duration: 300ms;
+}
+
 .dowload_item:not(:last-child) {
   margin-right: 8px;
+}
+
+.dowload_item:focus,
+.dowload_item:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
 }
